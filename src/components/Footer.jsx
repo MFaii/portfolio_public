@@ -51,7 +51,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div className="link">
+        {/* <div className="link">
           <h3>lorem</h3>
           <ul>
             <li>
@@ -67,7 +67,7 @@ const Footer = () => {
               <a href="#">lorem</a>
             </li>
           </ul>
-        </div>
+        </div> */}
       </div>
     </footer>
   );

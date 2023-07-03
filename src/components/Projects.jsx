@@ -1,4 +1,7 @@
 import React from "react";
+import ecosun from "/imgs/ecosun.png";
+import pokeapp from "/imgs/pokeapp.png";
+import videogames from "/imgs/videogames.png";
 
 const Projects = () => {
   return (
@@ -18,17 +21,21 @@ const Projects = () => {
               ●Base de datos: PostgreSQL. <br />
               ●ORM: Sequelize.
             </p>
-            <a href="#" className="btn-1">
+            <a
+              href="https://github.com/MFaii/PI-Pokemon"
+              target="_blank"
+              className="btn-1"
+            >
               Repositorio
             </a>
           </div>
           <div className="portfolio-img">
-            <img src="" alt="Pokemon App" />
+            <img src={pokeapp} alt="Pokemon App" />
           </div>
         </div>
         <div className="portfolio-1">
           <div className="portfolio-img">
-            <img src="" alt="EcoSun E-commerce" />
+            <img src={ecosun} alt="EcoSun E-commerce" />
           </div>
           <div className="portfolio-txt">
             <span>Desarrollador back-end</span>
@@ -44,7 +51,7 @@ const Projects = () => {
               ●ORM: Sequelize.
             </p>
             <a href="#" className="btn-1">
-              Repositorio
+              Repositorio no disponible
             </a>
           </div>
         </div>
@@ -60,12 +67,16 @@ const Projects = () => {
               ●Base de datos: PostgreSQL. <br />
               ●ORM: Sequelize.
             </p>
-            <a href="#" className="btn-1">
+            <a
+              href="https://github.com/MFaii/PI-Videogames"
+              target="_blank"
+              className="btn-1"
+            >
               Repositorio
             </a>
           </div>
           <div className="portfolio-img">
-            <img src="" alt="Videogames App" />
+            <img src={videogames} alt="Videogames App" />
           </div>
         </div>
       </div>
