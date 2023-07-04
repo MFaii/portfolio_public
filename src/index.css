@@ -200,6 +200,10 @@ h2 {
   margin-bottom: 25px;
 }
 
+.portfolio-txt a {
+  margin-right: 20px;
+}
+
 .portfolio-img {
   flex-basis: 50%;
   text-align: center;
@@ -219,7 +223,7 @@ h2 {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 100px;
-  justify-content: center;
+  justify-items: center;
 }
 
 .skills-content img {
@@ -412,7 +416,7 @@ h2 {
     margin-top: 0;
     grid-template-columns: repeat(2, 1fr);
     gap: 40px;
-    padding: 0 100px;
+    padding: 0 50px;
   }
   .footer {
     padding: 30px;
@@ -425,7 +429,10 @@ h2 {
     display: block;
   }
   .contact {
-    width: auto;
+    width: 80%;
     border-radius: 10%;
+  }
+  .btn-1 {
+    margin-bottom: 20px;
   }
 }

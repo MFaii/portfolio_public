@@ -36,6 +36,7 @@ const Contact = () => {
       progress: undefined,
       theme: "dark",
     });
+    toast.clearWaitingQueue();
   };
 
   return (
@@ -68,7 +69,7 @@ const Contact = () => {
           >
             Enviar mensaje
           </button>
-          <ToastContainer />
+          <ToastContainer limit={1} />
         </form>
       </div>
     </section>

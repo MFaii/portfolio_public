@@ -29,14 +29,14 @@ const Footer = () => {
               <a href="mailto:faillamaximiliano@gmail.com" target="_blank">
                 Mail
               </a>
-              <li>
-                <a
-                  href="https://www.linkedin.com/in/maximilianofailla/"
-                  target="_blank"
-                >
-                  Linkedin
-                </a>
-              </li>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/maximilianofailla/"
+                target="_blank"
+              >
+                Linkedin
+              </a>
             </li>
             <li>
               <a href="https://github.com/MFaii" target="_blank">
@@ -50,24 +50,6 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-
-        {/* <div className="link">
-          <h3>lorem</h3>
-          <ul>
-            <li>
-              <a href="#">lorem</a>
-            </li>
-            <li>
-              <a href="#">lorem</a>
-            </li>
-            <li>
-              <a href="#">lorem</a>
-            </li>
-            <li>
-              <a href="#">lorem</a>
-            </li>
-          </ul>
-        </div> */}
       </div>
     </footer>
   );

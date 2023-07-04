@@ -18,17 +18,17 @@ const Skills = () => {
       <h2>Tecnologías y herramientas</h2>
       <div className="skills-content">
         <img src={html} alt="html" />
-        <img src={css} />
-        <img src={js} />
-        <img src={react} />
-        <img src={redux} />
-        <img src={node} />
-        <img src={express} />
-        <img src={sequelize} />
-        <img src={postgre} />
-        <img src={github} />
-        <img src={slack} />
-        <img src={dc} />
+        <img src={css} alt="css" />
+        <img src={js} alt="js" />
+        <img src={react} alt="react" />
+        <img src={redux} alt="redux" />
+        <img src={node} alt="node" />
+        <img src={express} alt="express" />
+        <img src={sequelize} alt="sequelize" />
+        <img src={postgre} alt="postgre" />
+        <img src={github} alt="github" />
+        <img src={slack} alt="slack" />
+        <img src={dc} alt="dc" />
       </div>
     </section>
   );
