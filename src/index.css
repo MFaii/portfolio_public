@@ -46,6 +46,10 @@ img {
   text-transform: uppercase;
 }
 
+.navbar {
+  z-index: 9999999999;
+}
+
 .menu .navbar ul li {
   position: relative;
   float: left;
@@ -335,6 +339,20 @@ h2 {
   margin-bottom: 20px;
   border: solid white 1px;
   cursor: pointer;
+}
+
+@keyframes apareceIzq {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.animation {
+  animation-name: apareceIzq;
+  animation-duration: 3s;
 }
 
 @media (max-width: 991px) {
