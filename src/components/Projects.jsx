@@ -7,9 +7,9 @@ import webchat from "/imgs/webchat.png";
 const Projects = () => {
   return (
     <main className="portfolio container" id="projects">
-      <h2>Proyectos</h2>
+      <h2 className="animate__animated animate__zoomIn">Proyectos</h2>
 
-      <div className="portfolio-content">
+      <div className="portfolio-content animate__animated animate__lightSpeedInRight">
         <div className="portfolio-1">
           <div className="portfolio-txt">
             <span>Desarrollador Full Stack</span>

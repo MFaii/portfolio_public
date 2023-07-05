@@ -14,7 +14,10 @@ import dc from "/imgs/icons/dc.png";
 
 const Skills = () => {
   return (
-    <section id="tech" className="skills container">
+    <section
+      id="tech"
+      className="skills container animate__animated animate__zoomInDown"
+    >
       <h2>Tecnologías y herramientas</h2>
       <div className="skills-content">
         <img src={html} alt="html" />

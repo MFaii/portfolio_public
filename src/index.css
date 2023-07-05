@@ -12,6 +12,7 @@ font-family: 'Poppins', sans-serif;
   list-style: none;
   scroll-behavior: smooth;
   text-decoration: none;
+  --animate-duration: 1.5s;
 }
 
 body {

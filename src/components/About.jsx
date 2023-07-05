@@ -5,10 +5,13 @@ import EFSET from "/EF SET Certificate.pdf";
 const About = () => {
   return (
     <section className="about container">
-      <div className="about-img">
+      <div className="about-img animate__animated animate__backInLeft">
         <img src="/imgs/Perfil 1.jpg" />
       </div>
-      <div className="about-txt" id="about">
+      <div
+        className="about-txt animate__animated animate__backInRight"
+        id="about"
+      >
         <h2>Sobre mi</h2>
         <p>
           Hola, mi nombre es Maximiliano Failla. Me inicie en la programación

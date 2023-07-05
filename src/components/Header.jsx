@@ -4,7 +4,7 @@ import CV from "/Maximiliano Failla CV.pdf";
 const Header = () => {
   return (
     <header className="header">
-      <div className="menu container">
+      <div className="menu container animate__animated animate__fadeInDownBig">
         <a href="#" className="logo" id="home">
           {`{MF}`}
         </a>
@@ -38,9 +38,11 @@ const Header = () => {
       </div>
       <div className="header-content container">
         <div className="header-txt">
-          <span>Soy</span>
-          <h1>Desarrollador Web Full Stack</h1>
-          <div className="butons">
+          <span className="animate__animated animate__bounceInDown">Soy</span>
+          <h1 className="animate__animated animate__bounceInLeft">
+            Desarrollador Web Full Stack
+          </h1>
+          <div className="butons animate__animated animate__fadeInBottomRight">
             <a href={CV} className="btn-1" download target="_blank">
               CV - Descargar
             </a>

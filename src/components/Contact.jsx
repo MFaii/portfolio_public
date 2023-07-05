@@ -40,7 +40,10 @@ const Contact = () => {
   };
 
   return (
-    <section className="contact container" id="contact">
+    <section
+      className="contact container animate__animated animate__zoomInDown"
+      id="contact"
+    >
       <br />
       <h2>Contacto</h2>
       <div className="contact-content">
