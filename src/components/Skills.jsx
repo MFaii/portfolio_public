@@ -13,25 +13,69 @@ import slack from "/imgs/icons/slack.png";
 import dc from "/imgs/icons/dc.png";
 
 const Skills = () => {
+  const icons = [
+    {
+      name: "html",
+      img: html,
+    },
+    {
+      name: "css",
+      img: css,
+    },
+    {
+      name: "js",
+      img: js,
+    },
+    {
+      name: "react",
+      img: react,
+    },
+    {
+      name: "redux",
+      img: redux,
+    },
+    {
+      name: "node",
+      img: node,
+    },
+    {
+      name: "express",
+      img: express,
+    },
+    {
+      name: "sequelize",
+      img: sequelize,
+    },
+    {
+      name: "postgresql",
+      img: postgre,
+    },
+    {
+      name: "github",
+      img: github,
+    },
+    {
+      name: "slack",
+      img: slack,
+    },
+    {
+      name: "dc",
+      img: dc,
+    },
+  ];
+
   return (
     <section
       id="tech"
-      className="skills container animate__animated animate__zoomInDown"
+      className="skills container animate__animated animate__backInLeft"
     >
       <h2>Tecnologías y herramientas</h2>
       <div className="skills-content">
-        <img src={html} alt="html" />
-        <img src={css} alt="css" />
-        <img src={js} alt="js" />
-        <img src={react} alt="react" />
-        <img src={redux} alt="redux" />
-        <img src={node} alt="node" />
-        <img src={express} alt="express" />
-        <img src={sequelize} alt="sequelize" />
-        <img src={postgre} alt="postgre" />
-        <img src={github} alt="github" />
-        <img src={slack} alt="slack" />
-        <img src={dc} alt="dc" />
+        {icons.map((icon) => (
+          <div className="skills-icons" key={icon.name}>
+            <img src={icon.img} alt={icon.name} />
+          </div>
+        ))}
       </div>
     </section>
   );

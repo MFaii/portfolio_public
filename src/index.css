@@ -40,7 +40,7 @@ img {
 }
 
 .logo {
-  color: #49baba;
+  color: #3498db;
   font-size: 25px;
   font-weight: 800;
   text-transform: uppercase;
@@ -234,6 +234,17 @@ h2 {
 
 .skills-content img {
   width: 70px;
+}
+
+.skills-icons {
+  border: solid rgba(255, 255, 255, 0.339) 1px;
+  padding: 20px;
+  border-radius: 35px;
+  display: flex;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.544);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(54, 53, 53, 0.6);
 }
 
 .footer {
