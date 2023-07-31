@@ -14,8 +14,9 @@ const About = () => {
       >
         <h2>Sobre mi</h2>
         <p>
-          Hola, mi nombre es Maximiliano Failla. Me inicie en la programación
-          realizando el curso de desarrollador Full Stack en Henry.
+          Hola, mi nombre es Maximiliano Failla. Me inicié en la programación de
+          manera independiente, para luego realizar el curso de desarrollador
+          Full Stack en el Bootcamp de Henry.
           <br />
           Me considero una persona organizada y responsable. Me gustan los
           desafíos y el trabajo en equipo, soy fanático de los videojuegos y la
