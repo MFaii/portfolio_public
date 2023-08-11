@@ -38,6 +38,24 @@ const Contact = () => {
     toast.clearWaitingQueue();
   };
 
+  const error = () => {
+    toast.error("Error en el formulario", {
+      position: "top-left",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "dark",
+    });
+    toast.clearWaitingQueue();
+  };
+
+  const validate = () => {
+    return form.current.checkValidity() ? msj() : error();
+  };
+
   return (
     <section
       className="contact container animate__animated animate__backInRight"
@@ -49,7 +67,7 @@ const Contact = () => {
         <form ref={form} onSubmit={sendEmail}>
           <div className="name-box">
             <label>Nombre</label>
-            <input type="text" name="user_name" placeholder="Nombre" />
+            <input type="text" name="user_name" placeholder="Nombre" required />
           </div>
           <div className="email-box">
             <label>Email</label>
@@ -57,17 +75,23 @@ const Contact = () => {
               type="email"
               name="user_email"
               placeholder="email@email.com"
+              required
             />
           </div>
           <div className="message-box">
             <label>Mensaje</label>
-            <textarea rows="5" name="message" placeholder="Mensaje aqui..." />
+            <textarea
+              rows="5"
+              name="message"
+              placeholder="Mensaje aqui..."
+              required
+            />
           </div>
           <button
             className="btn-1 btn-msg"
             type="submit"
             value="Enviar mensaje"
-            onClick={msj}
+            onClick={validate}
           >
             Enviar mensaje
           </button>
