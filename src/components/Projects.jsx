@@ -59,7 +59,7 @@ const Projects = () => {
         <div className="portfolio-1">
           <div className="portfolio-txt">
             <span>Desarrollador Full Stack</span>
-            <h3>Videogames App - En desarrollo</h3>
+            <h3>Videogames App</h3>
             <p>
               Diseñar y desarrollar una App de Videojuegos, consumiendo la API
               de rawg.io, realizado con las siguientes tecnologías: <br />
