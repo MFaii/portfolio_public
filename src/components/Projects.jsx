@@ -129,7 +129,7 @@ const Projects = () => {
               Repositorio
             </a>
             <a
-              href="https://rickand-morty-basic-3unj9bft9-mfaii.vercel.app/"
+              href="https://rickand-morty-basic.vercel.app/"
               target="_blank"
               className="btn-1"
             >
