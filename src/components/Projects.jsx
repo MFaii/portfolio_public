@@ -112,6 +112,37 @@ const Projects = () => {
             </a>
           </div>
         </div>
+        <div className="portfolio-1">
+          <div className="portfolio-txt">
+            <span>Desarrollador front-end</span>
+            <h3>Rick and Morty Simple App</h3>
+            <p>
+              Desarrollar una App de Rick and Morty, realizado con las
+              siguientes tecnologías: <br />
+              ●Front: React, CSS. <br />
+            </p>
+            <a
+              href="https://github.com/MFaii/RickandMorty-Basic"
+              target="_blank"
+              className="btn-1"
+            >
+              Repositorio
+            </a>
+            <a
+              href="https://rickand-morty-basic-3unj9bft9-mfaii.vercel.app/"
+              target="_blank"
+              className="btn-1"
+            >
+              Demo
+            </a>
+          </div>
+          <div className="portfolio-img">
+            <img
+              src="https://images3.alphacoders.com/812/812062.png"
+              alt="Rick and Morty App"
+            />
+          </div>
+        </div>
       </div>
     </main>
   );
