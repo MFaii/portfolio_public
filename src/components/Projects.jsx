@@ -3,6 +3,7 @@ import ecosun from "/imgs/ecosun.png";
 import pokeapp from "/imgs/pokeapp.png";
 import videogames from "/imgs/videogames.png";
 import webchat from "/imgs/webchat.png";
+import nextcommerce from "/imgs/next-commerce.png";
 
 const Projects = () => {
   return (
@@ -141,6 +142,28 @@ const Projects = () => {
               src="https://images3.alphacoders.com/812/812062.png"
               alt="Rick and Morty App"
             />
+          </div>
+        </div>
+        <div className="portfolio-1">
+          <div className="portfolio-img">
+            <img src={nextcommerce} alt="NextCommerce" />
+          </div>
+          <div className="portfolio-txt">
+            <span>Desarrollador front-end</span>
+            <h3>NextCommerce(En desarrollo)</h3>
+            <p>
+              Desarrollar un E-commerce de productos ficticios, realizado con
+              las siguientes tecnologías:
+              <br />
+              ●Front: React, CSS, TailwindCSS, Next-UI, Firebase Auth. <br />
+            </p>
+            <a
+              href="https://github.com/MFaii/Ecommerce-NextUI"
+              className="btn-1"
+              target="_blank"
+            >
+              Repositorio front-end
+            </a>
           </div>
         </div>
       </div>
